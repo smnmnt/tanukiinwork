@@ -187,11 +187,11 @@
             <!-- /.socials -->
         </div>
     </footer>
-    <div class="modal">
+    <div class="modal modal--close">
         <div class="modal-window">
             <div class="modal-header">
                 <h2 class="modal-title">Корзина</h2>
-                <button class="btn-close"></button>
+                <button class="btn-close" id="close-modal"></button>
             </div>
             <!-- /.modal-header -->
             <div class="modal-main">
@@ -204,9 +204,9 @@
                         </div>
                           
                         <div class="counter">
-                            <button class="btn-count">-</button>
+                            <button class="btn-count-minus btn-count">-</button>
                             <span class="count"> 1</span>
-                            <button class="btn-count">+</button>
+                            <button class="btn-count-plus btn-count">+</button>
                         </div>
                         <!-- /.count-block -->
                     </div>
@@ -222,9 +222,9 @@
                         </div>
                           
                         <div class="counter">
-                            <button class="btn-count">-</button>
+                            <button class="btn-count-minus btn-count">-</button>
                             <span class="count"> 1</span>
-                            <button class="btn-count">+</button>
+                            <button class="btn-count-plus btn-count">+</button>
                         </div>
                         <!-- /.count-block -->
                     </div>
@@ -240,9 +240,9 @@
                         </div>
                           
                         <div class="counter">
-                            <button class="btn-count">-</button>
+                            <button class="btn-count-minus btn-count">-</button>
                             <span class="count"> 1</span>
-                            <button class="btn-count">+</button>
+                            <button class="btn-count-plus btn-count">+</button>
                         </div>
                         <!-- /.count-block -->
                     </div>
@@ -258,9 +258,9 @@
                         </div>
                           
                         <div class="counter">
-                            <button class="btn-count">-</button>
+                            <button class="btn-count-minus btn-count">-</button>
                             <span class="count"> 1</span>
-                            <button class="btn-count">+</button>
+                            <button class="btn-count-plus btn-count">+</button>
                         </div>
                         <!-- /.count-block -->
                     </div>
@@ -276,25 +276,26 @@
                         </div>
                           
                         <div class="counter">
-                            <button class="btn-count">-</button>
+                            <button class="btn-count-minus btn-count">-</button>
                             <span class="count"> 1</span>
-                            <button class="btn-count">+</button>
+                            <button class="btn-count-plus btn-count">+</button>
                         </div>
                         <!-- /.count-block -->
                     </div>
                 <!-- /.cart-string -->
                 </div>
                 <!-- /.row -->
+                
             </div>
             <!-- /.modal-main -->
             <div class="modal-footer">
                 <div class="sum">
                     <h3 class="modal-sum">1250</h3>
-                    <span class="rub-sum"></span>
+                    <span class="rub-sum">₽</span>
                 </div>
                 <div class="buttons">
-                    <button class="button button__man button--primary">Оформить заказ</button>
-                    <button class="button button__cart button--secondary" id="cart">Отмена</button>
+                    <button class="button button--primary button__wo__icon">Оформить заказ</button>
+                    <button class="button button--secondary cart-popup__bottom-cancel" id="cart">Отмена</button>
                 </div>
                 <!-- /.buttons -->
             </div>
